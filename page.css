@@ -1,0 +1,103 @@
+/*PC layout*/
+.myImage1, .myImage2 {
+    width: 50%;
+    height: auto;
+  }
+  
+  .myImage3 {
+    width: 45%;
+    height: auto;
+    position: absolute;
+    top: 10px;
+    left: 700px;
+  }
+  
+  .myImage4 {
+    width: 5%;
+    height: auto;
+    position: absolute;
+    top: 10px;
+    left: 340px;
+  }
+  
+  .myImage5 {
+    width: 10%;
+    height: auto;
+    position: absolute;
+    top: 1050px;
+    left: 90px;
+  }
+  
+  .myImage6 {
+    width: 10%;
+    height: auto;
+    position: absolute;
+    top: 1230px;
+    left: 160px;
+  }
+  
+  .myText6 {
+    position: absolute;
+    top: 1350px;
+    left: 90px;
+  }
+  
+  .myImage7 {
+    width: 10%;
+    height: auto;
+    position: absolute;
+    top: 1230px;
+    left: 530px;
+  }
+  
+  .myText7 {
+    position: absolute;
+    top: 1350px;
+    left: 460px;
+  }
+  
+  .myImage8 {
+    width: 10%;
+    height: auto;
+    position: absolute;
+    top: 1230px;
+    left: 920px;
+  }
+  
+  .myText8 {
+    position: absolute;
+    top: 1350px;
+    left: 850px;
+  }
+  
+  .myText0 {
+    position: absolute;
+    top: 1550px;
+    left: 410px;
+  }
+  
+  /*mobile rearanger*/
+  @media (max-width: 768px) {
+    
+    .myImage1, .myImage2, .myImage3, 
+    .myImage4, .myImage5, .myImage6, 
+    .myImage7, .myImage8 {
+      position: relative;   
+      width: 80%;          
+      margin: 20px auto;   
+      display: block;
+      top: auto;
+      left: auto;
+    }
+    .myText6, .myText7, .myText8, .myText0 {
+      position: relative;
+      text-align: center;
+      margin: 10px auto;
+      top: auto;
+      left: auto;
+      width: 20%;
+      height: 20%;
+      display: block;
+    }
+  }
+  
