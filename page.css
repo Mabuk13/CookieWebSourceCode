@@ -78,26 +78,86 @@
   
   /*mobile rearanger*/
   @media (max-width: 768px) {
+    .myImage1, .myImage2 {
+      width: 50%;
+      height: auto;
+    }
     
-    .myImage1, .myImage2, .myImage3, 
-    .myImage4, .myImage5, .myImage6, 
-    .myImage7, .myImage8 {
-      position: relative;   
-      width: 80%;          
-      margin: 20px auto;   
-      display: block;
-      top: auto;
-      left: auto;
+    .myImage3 {
+      width: 0%;
+      height: auto;
+      position: absolute;
+      top: 10px;
+      left: 700px;
     }
-    .myText6, .myText7, .myText8, .myText0 {
-      position: relative;
-      text-align: center;
-      margin: 10px auto;
-      top: auto;
-      left: auto;
-      width: 20%;
-      height: 20%;
-      display: block;
+    
+    .myImage4 {
+      width: 5%;
+      height: auto;
+      position: absolute;
+      top: 30px;
+      left: 340px;
     }
-  }
+    
+    .myImage5 {
+      width: 0%;
+      height: auto;
+      position: absolute;
+      top: 1050px;
+      left: 90px;
+    }
+    
+    .myImage6 {
+      width: 10%;
+      height: auto;
+      position: absolute;
+      top: 730px;
+      left: 100px;
+    }
+    
+    .myText6 {
+      position: absolute;
+      top: 780px;
+      left: 20px;
+    }
+    
+    .myImage7 {
+      width: 10%;
+      height: auto;
+      position: absolute;
+      top: 730px;
+      left: 400px;
+    }
+    
+    .myText7 {
+      position: absolute;
+      top: 780px;
+      left: 320px;
+    }
+    
+    .myImage8 {
+      width: 10%;
+      height: auto;
+      position: absolute;
+      top: 830px;
+      left: 260px;
+    }
+    
+    .myText8 {
+      position: absolute;
+      top: 880px;
+      left: 160px;
+    }
+    
+    .myText0 {
+      position: absolute;
+      top: 1150px;
+      left: 130px;
+    }
+    
+    
+    }
+  
+  
+
   
