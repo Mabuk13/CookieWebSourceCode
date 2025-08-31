@@ -79,7 +79,7 @@
   /*mobile rearanger*/
   @media (max-width: 768px) {
     .myImage1, .myImage2 {
-      width: 60%;
+      width: 100%;
       height: auto;
     }
     
@@ -96,7 +96,7 @@
       height: auto;
       position: absolute;
       top: 30px;
-      left: 340px;
+      left: 335px;
     }
     
     .myImage5 {
@@ -108,7 +108,7 @@
     }
     
     .myImage6 {
-      width: 30%;
+      width: 50%;
       height: auto;
       position: absolute;
       top: 730px;
@@ -117,7 +117,7 @@
     
     .myText6 {
       position: absolute;
-      top: 890px;
+      top: 830px;
       left: 30px;
     }
     
@@ -125,13 +125,13 @@
       width: 30%;
       height: auto;
       position: absolute;
-      top: 930px;
+      top: 840px;
       left: 100px;
     }
     
     .myText7 {
       position: absolute;
-      top: 1090px;
+      top: 940px;
       left: 30px;
     }
     
@@ -139,13 +139,13 @@
       width: 30%;
       height: auto;
       position: absolute;
-      top: 1130px;
+      top: 950px;
       left: 100px;
     }
     
     .myText8 {
       position: absolute;
-      top: 1290px;
+      top: 1050px;
       left: 30px;
     }
     
@@ -163,4 +163,5 @@
   
 
   
+
 
