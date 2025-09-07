@@ -1,0 +1,149 @@
+.myImage9 {
+    width : 30%;
+    height : auto;
+    position : absolute;
+    top : 100px;
+    left : 10px;
+}
+.myText1{
+    position : absolute;
+    top : 300px;
+    left : 10px;
+
+}
+.myImagep {
+    width: 5%;
+    height: auto;
+    position: absolute;
+    top: 10px;
+    left: 1100px;
+  }
+  
+  .myImageo {
+    width: 10%;
+    height: auto;
+    position: absolute;
+    top: 10px;
+    left: 1050px;
+    display: none; /* hidden by default */
+  }
+  
+  .myTextp {
+    position: absolute;
+    top: 70px;
+    left: 1100px;
+    display: none;
+  }
+  .scratch1{
+    width : 70%;
+    height: 90%;
+    position: absolute;
+    top:415px;
+    left:290px;
+  }
+  .skib{
+    position: absolute;
+    top:380px;
+    left:350px;
+  }
+  .myImagey{
+    width:20%;
+    height:auto;
+    position:absolute;
+    top:400px;
+    left:10px;
+  }
+  .texty{
+    position:absolute;
+    top:600px;
+    left:10px;
+
+  }
+
+  @media (max-width: 768px) {
+    /* Image 9 */
+    .myImage9 {
+      width: 80%;
+      height: auto;
+      position: absolute;
+      top: 50px;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+  
+    /* Text 1 */
+    .myText1 {
+      position: absolute;
+      top: 200px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 90%;
+      text-align: center;
+    }
+  
+    /* Profile images (p & o) */
+    .myImagep {
+      width: 15%;
+      height: auto;
+      position: absolute;
+      top: 20px;
+      left: 80%;
+    }
+  
+    .myImageo {
+      width: 20%;
+      height: auto;
+      position: absolute;
+      top: 70px;
+      left: 75%;
+      display: none; /* stays hidden until JS shows it */
+    }
+  
+    .myTextp {
+      position: absolute;
+      top: 130px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 90%;
+      text-align: center;
+      display: none;
+    }
+  
+    /* Scratch embed */
+    .scratch1 {
+      width: 90%;
+      height: auto;
+      position: absolute;
+      top: 300px;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+  
+    .skib {
+      position: absolute;
+      top: 260px;
+      left: 50%;
+      transform: translateX(-50%);
+      text-align: center;
+    }
+  
+    /* Extra image + text */
+    .myImagey {
+      width: 60%;
+      height: auto;
+      position: absolute;
+      top: 550px;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+  
+    .texty {
+      position: absolute;
+      top: 700px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 90%;
+      text-align: center;
+    }
+  }
+  

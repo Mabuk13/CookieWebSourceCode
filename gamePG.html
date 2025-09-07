@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cookieWeb</title>
+    <link rel="stylesheet" href="gamePG.css"> 
+</head>
+<body style="background-color: black;" text="white">
+    <h1>Find my favourite projects that <span style="color: red;"><b><span style="font-family: 'Arial', monospace;">YOU</span></b></span> may find intresting</h1>
+    <a href = https://mabuk13.itch.io/urban-volumes target="_blank">
+        <img src = "Images/img10.png" alt = "pic of urban breakdown" class = "myImage9">
+    </a>
+    <p class = "myText1">Urban breakdown is a 3D unity shooter and it is about humans losing control of robots and thus<br> causing the robots to take over the world. The goal is to find the heart of nature that will restore<br> it; it will be released in 2 years</p>
+    
+    <iframe src="https://scratch.mit.edu/projects/1152239856/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen class = scratch1></iframe>
+    <p class = "skib">Try biscuit adventure here(warning, this is the pc version and does not work on mobile)</p>
+     <!-- Trigger image -->
+  <img id="img1" src="Images/Untitled.jpg" alt="thy" class="myImagep">
+  <a href="https://scratch.mit.edu/projects/1163245007">
+    <img src = "Images/HE.png" alt = "thyhe" class = "myImagey">
+  </a>
+
+  
+  <p class="texty">Click image to access mobile version</p>
+
+  
+  <img id="img2" src="Images/o.jpg" alt="thy" class="myImageo">
+  <a href="index.html">
+    <p id = "text1"class = myTextp>Home</p>
+  </a>
+  
+
+  <script>
+   
+    const firstImage = document.getElementById('img1');
+    const secondImage = document.getElementById('img2');
+    const firstText = document.getElementById('text1');
+
+    // When first image is clicked, show the second image
+    firstImage.addEventListener('click', () => {
+      secondImage.style.display = 'block';
+      firstText.style.display = 'block';
+    });
+  </script>
+
+</body>

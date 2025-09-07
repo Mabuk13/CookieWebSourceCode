@@ -1,0 +1,175 @@
+/* PC layout */
+.myText1 {
+  position: absolute;
+  top: 10px;
+  left: 400px;
+}
+
+.myImage1, .myImage2 {
+  width: 50%;
+  height: auto;
+}
+
+.myImage3 {
+  width: 45%;
+  height: auto;
+  position: absolute;
+  top: 10px;
+  left: 660px;
+}
+
+.myImage4 {
+  width: 5%;
+  height: auto;
+  position: absolute;
+  top: 10px;
+  left: 590px;
+}
+
+.myImage5 {
+  width: 10%;
+  height: auto;
+  position: absolute;
+  top: 1050px;
+  left: 90px;
+}
+
+.myImage6 {
+  width: 10%;
+  height: auto;
+  position: absolute;
+  top: 1230px;
+  left: 160px;
+}
+
+.myText6 {
+  position: absolute;
+  top: 1350px;
+  left: 90px;
+}
+
+.myImage7 {
+  width: 10%;
+  height: auto;
+  position: absolute;
+  top: 1230px;
+  left: 530px;
+}
+
+.myText7 {
+  position: absolute;
+  top: 1350px;
+  left: 460px;
+}
+
+.myImage8 {
+  width: 10%;
+  height: auto;
+  position: absolute;
+  top: 1230px;
+  left: 920px;
+}
+
+.myText8 {
+  position: absolute;
+  top: 1350px;
+  left: 850px;
+}
+
+.myText0 {
+  position: absolute;
+  top: 1550px;
+  left: 410px;
+}
+
+.myImagep {
+  width: 5%;
+  height: auto;
+  position: absolute;
+  top: 10px;
+  left: 1100px;
+}
+
+.myImageo {
+  width: 10%;
+  height: auto;
+  position: absolute;
+  top: 10px;
+  left: 1050px;
+  display: none; /* hidden by default */
+}
+
+.myTextp {
+  position: absolute;
+  top: 70px;
+  left: 1080px;
+  display: none;
+}
+
+@media (max-width: 768px) {
+  body {
+    text-align: center;
+  }
+
+  /* Images */
+  .myImage1,
+  .myImage2,
+  .myImage3,
+  .myImage4,
+  .myImage5,
+  .myImage6,
+  .myImage7,
+  .myImage8,
+  .myImagep,
+  .myImageo {
+    position: absolute;
+    width: 60%;        /* smaller for mobile */
+    height: auto;
+    left: 50%;         /* centred horizontally */
+    transform: translateX(-50%);
+  }
+
+  /* Hidden image (still hidden until JS shows it) */
+  .myImageo {
+    display: none;
+  }
+
+  /* Texts */
+  .myText1,
+  .myText6,
+  .myText7,
+  .myText8,
+  .myText0,
+  .myTextp {
+    position: absolute;
+    width: 90%;
+    text-align: center;
+    left: 50%;        
+    transform: translateX(-50%);
+  }
+
+  
+  .myImage1 { top: 20px; }
+  .myText1  { top: 200px; }
+
+  .myImage2 { top: 300px; }
+  .myImage3 { top: 500px; }
+
+  .myImage4 { top: 700px; }
+  .myImage5 { top: 900px; }
+
+  .myImage6 { top: 1100px; }
+  .myText6  { top: 1250px; }
+
+  .myImage7 { top: 1400px; }
+  .myText7  { top: 1550px; }
+
+  .myImage8 { top: 1700px; }
+  .myText8  { top: 1850px; }
+
+  .myImagep { top: 2000px; }
+  .myImageo { top: 2200px; }
+  .myTextp  { top: 2350px; }
+
+  .myText0  { top: 2500px; }
+}
