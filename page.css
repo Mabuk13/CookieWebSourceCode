@@ -170,5 +170,31 @@
     width: 45%;
     margin: 0;
   }
+  .myImage6{
+    top: 800px;
+    left: 50px;
+  }
+  .myText6{
+    top:960px;
+    left:10px;
+  }
+  .myImage7{
+    top: 1000px;
+    left: 50px;
+  }
+  .myText7{
+    top:1160px;
+    left:10px;
 }
-
+.myImage8{
+  top: 1200px;
+  left: 50px;
+}
+.myText8{
+  top:1360px;
+  left:10px;
+}
+.myImage5{
+  display:none;
+}
+}
