@@ -112,6 +112,8 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
+    margin: 0;
+    padding: 0;
   }
 
   /* General image and text styling */
@@ -133,28 +135,50 @@
   .myText6,
   .myText7,
   .myText8,
-  .myText0,
-  .myTextp {
+  .myText0 {
     width: 90%;
     margin: 10px 0;
   }
 
-  /* Hidden on mobile */
+  /* Hide on mobile */
   .myImage3,
+  .myTextp,
+  .myImage5 {
+    display: none;
+  }
+
+  .myImagep {
+    position: fixed;
+    top: 10px;
+    left: 340px;
+    width: 40px;
+    height: auto;
+    z-index: 1000;
+    cursor: pointer;
+  }
+
+  /* Hidden by default */
+  .myImageo,
   .myTextp {
     display: none;
   }
 
-  /* Page navigator (top right corner, always visible) */
-  .myImagep {
-    position: fixed;
-    top: 10px;
-    right: 10px;
-    width: 40px;   /* smaller button size */
-    height: auto;
-    margin: 0;
-    z-index: 9999;
+ 
+  .myImageo{
+    position:fixed;
+    top:0px;
+    left:283px;
+    width:100px;
+    height:auto;
+    z-index:1000;
   }
+  .myTextp{
+    position:fixed;
+    top:100px;
+    left:280px;
+    z-index:1000;
+  }
+
 
   /* Heading section: myImage4 (left) + myImageo (right) */
   .heading {
@@ -162,7 +186,7 @@
     justify-content: space-between;
     align-items: center;
     width: 90%;
-    margin: 60px 0 20px; /* leave space for top navigator */
+    margin: 60px 0 20px; /* space for navigator */
   }
 
   .heading .myImage4,
@@ -170,31 +194,17 @@
     width: 45%;
     margin: 0;
   }
-  .myImage6{
-    top: 800px;
-    left: 50px;
+
+  /* Stack content naturally (no absolute positioning) */
+  .myImage6,
+  .myText6,
+  .myImage7,
+  .myText7,
+  .myImage8,
+  .myText8 {
+    position: static; /* removes top/left lock */
+    margin: 20px 0;
+    width: 70%;
   }
-  .myText6{
-    top:960px;
-    left:10px;
-  }
-  .myImage7{
-    top: 1000px;
-    left: 50px;
-  }
-  .myText7{
-    top:1160px;
-    left:10px;
 }
-.myImage8{
-  top: 1200px;
-  left: 50px;
-}
-.myText8{
-  top:1360px;
-  left:10px;
-}
-.myImage5{
-  display:none;
-}
-}
+
