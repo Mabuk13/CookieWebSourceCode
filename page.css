@@ -108,10 +108,13 @@
 
 @media (max-width: 768px) {
   body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     text-align: center;
   }
 
-  /* Images */
+  /* General image and text styling */
   .myImage1,
   .myImage2,
   .myImage3,
@@ -120,56 +123,52 @@
   .myImage6,
   .myImage7,
   .myImage8,
-  .myImagep,
   .myImageo {
-    position: absolute;
-    width: 60%;        /* smaller for mobile */
+    width: 60%;
     height: auto;
-    left: 50%;         /* centred horizontally */
-    transform: translateX(-50%);
+    margin: 15px 0;
   }
 
-  /* Hidden image (still hidden until JS shows it) */
-  .myImageo {
-    display: none;
-  }
-
-  /* Texts */
   .myText1,
   .myText6,
   .myText7,
   .myText8,
   .myText0,
   .myTextp {
-    position: absolute;
     width: 90%;
-    text-align: center;
-    left: 50%;        
-    transform: translateX(-50%);
+    margin: 10px 0;
   }
 
-  
-  .myImage1 { top: 20px; }
-  .myText1  { top: 200px; }
+  /* Hidden on mobile */
+  .myImage3,
+  .myTextp {
+    display: none;
+  }
 
-  .myImage2 { top: 300px; }
-  .myImage3 { top: 500px; }
+  /* Page navigator (top right corner, always visible) */
+  .myImagep {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    width: 40px;   /* smaller button size */
+    height: auto;
+    margin: 0;
+    z-index: 9999;
+  }
 
-  .myImage4 { top: 700px; }
-  .myImage5 { top: 900px; }
+  /* Heading section: myImage4 (left) + myImageo (right) */
+  .heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: 60px 0 20px; /* leave space for top navigator */
+  }
 
-  .myImage6 { top: 1100px; }
-  .myText6  { top: 1250px; }
-
-  .myImage7 { top: 1400px; }
-  .myText7  { top: 1550px; }
-
-  .myImage8 { top: 1700px; }
-  .myText8  { top: 1850px; }
-
-  .myImagep { top: 2000px; }
-  .myImageo { top: 2200px; }
-  .myTextp  { top: 2350px; }
-
-  .myText0  { top: 2500px; }
+  .heading .myImage4,
+  .heading .myImageo {
+    width: 45%;
+    margin: 0;
+  }
 }
+
